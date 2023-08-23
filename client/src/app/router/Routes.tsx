@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import ContactPage  from "../../features/contact/ContactPage";
+=======
+import { ContactPage } from "@mui/icons-material";
+>>>>>>> 26a1e2e9372cc120d8fc462f3c2addf11372d7f7
 import { createBrowserRouter } from "react-router-dom";
 import AboutPage from "../../features/about/AboutPage";
 import Catalog from "../../features/catalog/Catalog";
