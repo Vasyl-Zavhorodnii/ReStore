@@ -1,9 +1,6 @@
-<<<<<<< HEAD
+
 import { ShoppingCart } from "@mui/icons-material";
 import { AppBar, Badge, Box, IconButton, List, ListItem, Switch, Toolbar, Typography } from "@mui/material";
-=======
-import { AppBar, List, ListItem, Switch, Toolbar, Typography } from "@mui/material";
->>>>>>> 26a1e2e9372cc120d8fc462f3c2addf11372d7f7
 import { NavLink } from "react-router-dom";
 
 const midLinks = [
@@ -20,7 +17,6 @@ const rightLinks = [
     { title: 'login', path: '/login' },
     { title: 'register', path: '/register' }
 ]
-<<<<<<< HEAD
 
 const navStyles = {
     color: 'inherit',
@@ -40,7 +36,7 @@ export default function Header({ darkMode, handlethemeChange }: Props) {
     return (
 
         <AppBar position='static' sx={{ mb: 4 }}>
-<<<<<<< HEAD
+
             <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <Box display='flex' alignItems= 'center' >
                 <Typography variant='h6' component={NavLink}
@@ -73,24 +69,11 @@ export default function Header({ darkMode, handlethemeChange }: Props) {
 
                 <List sx={{ display: 'flex' }}>
                     {rightLinks.map(({ title, path }) => (
-=======
-            <Toolbar>
-                <Typography variant='h6'>
-                    RESTORE
-                </Typography>
-                <Switch checked={darkMode} onChange={handlethemeChange} />
-                <List sx={{ display: 'flex' }}>
-                    {midLinks.map(({ title, path }) => (
->>>>>>> 26a1e2e9372cc120d8fc462f3c2addf11372d7f7
                         <ListItem
                             component={NavLink}
                             to={path}
                             key={path}
-<<<<<<< HEAD
                             sx={navStyles}>
-=======
-                            sx={{color:'inherit',typography:'h6'}}>
->>>>>>> 26a1e2e9372cc120d8fc462f3c2addf11372d7f7
                             {title.toUpperCase()}
                         </ListItem>
                     ))}

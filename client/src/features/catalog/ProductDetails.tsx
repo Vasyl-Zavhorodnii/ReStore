@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Divider, Grid, Table, TableBody, TableCell, TableContainer, TableRow, Typography } from "@mui/material";
 import axios from "axios";
 import { useEffect, useState } from "react";
@@ -67,6 +66,5 @@ return(
         product details
     </Typography>
 )
->>>>>>> 26a1e2e9372cc120d8fc462f3c2addf11372d7f7
 
 }
